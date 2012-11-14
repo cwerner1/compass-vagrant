@@ -1,0 +1,29 @@
+/* line 74, test/*.png */
+.test-sprite, .test-picasa, .test-picture-big, .test-picture-small, .test-plus, .test-toque {
+  background: url('/img/test-sbe073275c6.png') no-repeat;
+}
+
+/* line 60, ../../src/compass/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.test-picasa {
+  background-position: 0 0;
+}
+
+/* line 60, ../../src/compass/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.test-picture-big {
+  background-position: 0 -66px;
+}
+
+/* line 60, ../../src/compass/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.test-picture-small {
+  background-position: 0 -115px;
+}
+
+/* line 60, ../../src/compass/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.test-plus {
+  background-position: 0 -148px;
+}
+
+/* line 60, ../../src/compass/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.test-toque {
+  background-position: 0 -29px;
+}

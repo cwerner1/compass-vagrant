@@ -1,0 +1,70 @@
+#An example Puppet manifest to provision the message of the day:
+
+ group { "puppet":
+   ensure => "present",
+ }
+
+File { owner => 0, group => 0, mode => 0644 }
+
+file { '/etc/motd':
+   content => "Welcome to your Vagrant-built virtual machine!
+               Managed by Puppet.\n"
+}
+class { 'jenkins': ; }
+exec {
+	"apt-update":
+		command  => "apt-get update -y"
+	
+	"some-exec" :
+		command => "/bin/echo $PATH",
+		require => Class["jenkins::package"],
+        # ... etc
+}
+
+
+jenkins::plugin {
+	"checkstyle":,
+  }
+jenkins::plugin {
+	"cloverphp":,
+  }
+ jenkins::plugin {
+	"dry":,
+  }
+ jenkins::plugin {
+	"htmlpublisher":,
+  }
+ jenkins::plugin {
+	"jdepend":,
+  }
+ jenkins::plugin {	
+	"plot":,
+  }
+ jenkins::plugin {	
+	"pmd":,
+  }
+ jenkins::plugin {	
+	"violations":,
+  }
+ jenkins::plugin {	
+	"xunit":,
+  }
+ jenkins::plugin {	
+	"disk-usage":,
+  }
+ jenkins::plugin {
+	"promoted-builds":,
+  }
+ jenkins::plugin {	
+	"buildtriggerbadge":,
+  }
+ jenkins::plugin {
+	"performance":,
+
+  }
+ jenkins::plugin {
+	"git" :,
+  }
+ jenkins::plugin {	
+	"build-flow-plugin":,
+    }
