@@ -1,29 +1,52 @@
-/* line 74, test/*.png */
-.test-sprite, .test-picasa, .test-picture-big, .test-picture-small, .test-plus, .test-toque {
-  background: url('/img/test-sbe073275c6.png') no-repeat;
+/* line 28, ../sass/sprites.sass */
+.test {
+  background-image: url('img/cutlery-s72dfb5a3c1.png');
+  background-repeat: no-repeat;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  text-indent: -9999px;
 }
-
-/* line 60, ../../src/compass/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.test-picasa {
+/* line 16, ../sass/sprites.sass */
+.test.fork-knife-black {
+  background-position: 0 -55px;
+  height: 72px;
+  width: 36px;
+}
+/* line 16, ../sass/sprites.sass */
+.test.fork-knive-toque-black {
   background-position: 0 0;
+  height: 55px;
+  width: 55px;
 }
-
-/* line 60, ../../src/compass/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.test-picture-big {
-  background-position: 0 -66px;
+/* line 16, ../sass/sprites.sass */
+.test.small-grey {
+  background-position: 0 -127px;
+  height: 19px;
+  width: 16px;
 }
-
-/* line 60, ../../src/compass/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.test-picture-small {
-  background-position: 0 -115px;
-}
-
-/* line 60, ../../src/compass/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.test-plus {
-  background-position: 0 -148px;
-}
-
-/* line 60, ../../src/compass/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.test-toque {
-  background-position: 0 -29px;
+@media (min-resolution: 2 dppx), (min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2 / 1), (-webkit-min-device-pixel-ratio: 2) {
+  /* line 28, ../sass/sprites.sass */
+  .test {
+    background-image: url('img/cutlery@2x-sfaffe8e1dc.png');
+    -webkit-background-size: 55px 146px;
+    -moz-background-size: 55px 146px;
+    -o-background-size: 55px 146px;
+    background-size: 55px 146px;
+  }
+  /* line 25, ../sass/sprites.sass */
+  .test.fork-knife-black {
+    background-position: 0 -55px;
+  }
+  /* line 25, ../sass/sprites.sass */
+  .test.fork-knive-toque-black {
+    background-position: 0 0;
+  }
+  /* line 25, ../sass/sprites.sass */
+  .test.small-grey {
+    background-position: 0 -127px;
+  }
 }

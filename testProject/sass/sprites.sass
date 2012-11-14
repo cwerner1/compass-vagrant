@@ -1,4 +1,33 @@
 @import "compass/utilities/sprites/base"
+@import "compass/css3/inline-block"
+@import "compass/css3/background-size"
 
-@import "test/*.png"
-@include all-test-sprites
+@mixin retina-sprite($folder)
+  $sprites: sprite-map("#{$folder}/*.png")
+  // Generates a sprite containing every icon in the supplied folder.
+  $sprites-2x: sprite-map("#{$folder}@2x/*.png")
+  // Generates a second sprite containing every icon @2x resolution.
+
+  background-image: sprite-url($sprites)
+  background-repeat: no-repeat
+  @include inline-block
+  text-indent: -9999px
+  @each $sprite in sprite-names($sprites)
+    &.#{$sprite}
+      background-position: sprite-position($sprites, $sprite)
+      height: image-height(sprite-file($sprites, $sprite))
+      width: image-width(sprite-file($sprites, $sprite))
+
+  @media (min-resolution: 2 dppx), (min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (-webkit-min-device-pixel-ratio: 2)
+    background-image: sprite-url($sprites-2x)
+    @include background-size(sprite-size($sprites))
+    @each $sprite in sprite-names($sprites-2x)
+      &.#{$sprite}
+        background-position: nth(sprite-position($sprites-2x, $sprite), 1) nth(sprite-position($sprites-2x, $sprite), 2) / 2
+
+.test
+
+  @include retina-sprite("cutlery")
+
+
+

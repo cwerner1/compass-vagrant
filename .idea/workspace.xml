@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3e237b1-365e-480c-af05-de135b2a6361" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compass.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/files/path.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testProject/sass/sprites.sass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testProject/index.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testProject/.sass-cache/d5253560a3e4526c5be762f41ac6e31b3ea20bf2/%042.pngc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testProject/img/test-sbe073275c6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testProject/stylesheets/sprites.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compass.iml" afterPath="$PROJECT_DIR$/.idea/compass.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testProject/config.rb" afterPath="$PROJECT_DIR$/testProject/config.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testProject/sass/screen.scss" afterPath="$PROJECT_DIR$/testProject/sass/screen.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testProject/sass/sprites.sass" afterPath="$PROJECT_DIR$/testProject/sass/sprites.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testProject/stylesheets/screen.css" afterPath="$PROJECT_DIR$/testProject/stylesheets/screen.css" />
     </list>
     <ignored path="compass.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,73 +30,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_lemonade.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/compass/frameworks/compass/stylesheets/_lemonade.scss">
+      <file leaf-file-name="image.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/compass/lib/compass/sass_extensions/sprites/image.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="7" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_utilities.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/compass/frameworks/compass/stylesheets/compass/_utilities.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="19" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_sprites.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/compass/frameworks/compass/stylesheets/compass/utilities/_sprites.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".project" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/compass/.project">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="24" selection-start="1054" selection-end="1054" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="content.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/compass/lib/compass/sprite_importer/content.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="13" selection-start="783" selection-end="783" vertical-scroll-proportion="-3.4285715">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="image_methods.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/compass/lib/compass/sass_extensions/sprites/image_methods.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="54" selection-start="870" selection-end="870" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.pp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/puppet/manifests/base.pp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="10" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="path.sh" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/files/path.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="12" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
+            <state line="63" column="23" selection-start="1667" selection-end="1669" vertical-scroll-proportion="-37.8">
               <folding />
             </state>
           </provider>
@@ -103,7 +42,7 @@
       <file leaf-file-name="sprites.sass" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testProject/sass/sprites.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="17" selection-start="76" selection-end="80" vertical-scroll-proportion="0.07550336">
+            <state line="0" column="0" selection-start="0" selection-end="1159" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -112,7 +51,16 @@
       <file leaf-file-name="sprites.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testProject/stylesheets/sprites.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="100" selection-start="584" selection-end="584" vertical-scroll-proportion="0.0">
+            <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testProject/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="28" selection-start="274" selection-end="274" vertical-scroll-proportion="-6.875">
               <folding />
             </state>
           </provider>
@@ -135,18 +83,24 @@
         <option value="$PROJECT_DIR$/puppet/modules/path.sh" />
         <option value="$PROJECT_DIR$/files/path.sh" />
         <option value="$PROJECT_DIR$/puppet/manifests/base.pp" />
-        <option value="$PROJECT_DIR$/testProject/config.rb" />
         <option value="$PROJECT_DIR$/testProject/sass/sprites.scss" />
+        <option value="$PROJECT_DIR$/src/compass/lib/compass/commands/sprite.rb" />
+        <option value="$PROJECT_DIR$/src/compass/lib/compass/sass_extensions/functions/image_size.rb" />
+        <option value="$PROJECT_DIR$/src/compass/lib/compass/sass_extensions/functions/sprites.rb" />
+        <option value="$PROJECT_DIR$/testProject/sass/screen.scss" />
+        <option value="$PROJECT_DIR$/testProject/config.rb" />
+        <option value="$PROJECT_DIR$/testProject/stylesheets/screen.css" />
+        <option value="$PROJECT_DIR$/testProject/index.html" />
         <option value="$PROJECT_DIR$/testProject/sass/sprites.sass" />
         <option value="$PROJECT_DIR$/testProject/stylesheets/sprites.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="561" />
-    <option name="y" value="106" />
-    <option name="width" value="1283" />
-    <option name="height" value="741" />
+    <option name="x" value="669" />
+    <option name="y" value="537" />
+    <option name="width" value="1004" />
+    <option name="height" value="373" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -216,7 +170,135 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="testProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="compass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -320,15 +402,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="561" y="106" width="1283" height="741" extended-state="0" />
-    <editor active="false" />
+    <frame x="669" y="537" width="1004" height="373" extended-state="0" />
+    <editor active="true" />
     <layout>
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="849" y="272" width="844" height="760" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32104638" sideWeight="0.91069674" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.8427948" sideWeight="0.9908467" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2813258" sideWeight="0.9910314" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2961702" sideWeight="0.9001957" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -395,114 +478,114 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/compass/features/command_line.feature">
+    <entry file="file://$PROJECT_DIR$/src/compass/lib/compass/sass_extensions/sprites/image_row.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="160" column="8" selection-start="7766" selection-end="7766" vertical-scroll-proportion="-2.9884393">
+        <state line="12" column="2" selection-start="281" selection-end="281" vertical-scroll-proportion="0.30927834">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/compass/frameworks/compass/stylesheets/_lemonade.scss">
+    <entry file="file://$PROJECT_DIR$/src/compass/lib/compass/sass_extensions/sprites/sprite_map.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="7" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
+        <state line="79" column="16" selection-start="2301" selection-end="2301" vertical-scroll-proportion="0.8172232">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/compass/frameworks/compass/stylesheets/compass/utilities/_sprites.scss">
+    <entry file="file://$PROJECT_DIR$/src/compass/lib/compass/sprite_importer.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
+        <state line="58" column="37" selection-start="1569" selection-end="1571" vertical-scroll-proportion="-7.24">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs193/kernel.rb">
+    <entry file="file://$PROJECT_DIR$/src/compass/lib/compass/sass_extensions/sprites/sprite_methods.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1203" column="8" selection-start="52588" selection-end="52588" vertical-scroll-proportion="0.76685935">
+        <state line="73" column="58" selection-start="2455" selection-end="2456" vertical-scroll-proportion="2.0128677">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/compass/.project">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.3/lib/sass/script/list.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="24" selection-start="1054" selection-end="1054" vertical-scroll-proportion="0.0">
+        <state line="3" column="8" selection-start="149" selection-end="149" vertical-scroll-proportion="-0.07908612">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vagrantfile">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.3/lib/sass/script/number.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="30" selection-start="2621" selection-end="2621" vertical-scroll-proportion="0.2788104">
+        <state line="72" column="8" selection-start="2405" selection-end="2405" vertical-scroll-proportion="0.3321617">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.vagrant">
+    <entry file="file://$PROJECT_DIR$/testProject/sass/screen.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/compass/lib/compass/sprite_importer/binding.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="29" selection-start="153" selection-end="153" vertical-scroll-proportion="0.26223776">
+        <state line="7" column="18" selection-start="314" selection-end="314" vertical-scroll-proportion="0.2">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/compass/lib/compass/sass_extensions/sprites/image_methods.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="54" selection-start="870" selection-end="870" vertical-scroll-proportion="0.0">
+        <state line="18" column="27" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/puppet/manifests/base.pp">
+    <entry file="file://$PROJECT_DIR$/src/compass/lib/compass/sass_extensions/sprites/image.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="10" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0">
+        <state line="63" column="23" selection-start="1667" selection-end="1669" vertical-scroll-proportion="-37.8">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/files/path.sh">
+    <entry file="file://$PROJECT_DIR$/src/compass/lib/compass/sass_extensions/functions/sprites.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="12" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
+        <state line="19" column="46" selection-start="713" selection-end="713" vertical-scroll-proportion="0.36445013">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testProject/stylesheets/screen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="37" selection-start="2732" selection-end="2747" vertical-scroll-proportion="0.55479455">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/compass/lib/compass/sass_extensions/functions/constants.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="8" selection-start="670" selection-end="732" vertical-scroll-proportion="-0.10367893">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testProject/config.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="40" selection-start="410" selection-end="410" vertical-scroll-proportion="0.23047376">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/compass/frameworks/compass/stylesheets/compass/_utilities.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="19" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/compass/lib/compass/sprite_importer/content.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="783" selection-end="783" vertical-scroll-proportion="-3.4285715">
+        <state line="3" column="13" selection-start="115" selection-end="115" vertical-scroll-proportion="0.04945055">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testProject/stylesheets/sprites.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="100" selection-start="584" selection-end="584" vertical-scroll-proportion="0.0">
+        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testProject/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="28" selection-start="274" selection-end="274" vertical-scroll-proportion="-6.875">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testProject/sass/sprites.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="17" selection-start="76" selection-end="80" vertical-scroll-proportion="0.07550336">
+        <state line="0" column="0" selection-start="0" selection-end="1159" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
